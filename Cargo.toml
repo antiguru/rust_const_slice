@@ -1,0 +1,11 @@
+[package]
+name = "const_slice"
+version = "0.1.0"
+authors = ["Moritz Hoffmann <moritz.hoffmann@inf.ethz.ch>"]
+
+build = "build.rs"
+
+[dependencies]
+
+[profile.release]
+debug = true
